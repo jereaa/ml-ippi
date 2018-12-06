@@ -1,7 +1,6 @@
 # ML-IPPI
-## MercadoLibre - IP Private Investigator
 
-ML-IPPI is just a small tool to get information on any desired IP address.
+ML-IPPI (MercadoLibre - IP Private Investigator) is just a small tool to get information on any desired IP address.
 
 
 ## Installation
