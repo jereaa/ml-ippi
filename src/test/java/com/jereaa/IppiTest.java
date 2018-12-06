@@ -1,5 +1,6 @@
+package com.jereaa;
+
 import com.google.common.net.InetAddresses;
-import com.mashape.unirest.http.exceptions.UnirestException;
 import org.json.JSONObject;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
@@ -7,7 +8,7 @@ import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 
-@DisplayName("Ippi class Tests")
+@DisplayName("com.jereaa.Ippi class Tests")
 class IppiTest {
 
     String[] testIpsLong = {

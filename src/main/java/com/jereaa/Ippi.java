@@ -1,3 +1,5 @@
+package com.jereaa;
+
 import com.google.common.net.InetAddresses;
 import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.Unirest;

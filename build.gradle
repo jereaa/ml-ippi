@@ -1,14 +1,15 @@
 plugins {
     id 'java'
     id 'application'
+    id "com.github.johnrengelman.shadow" version "4.0.3"
 }
 
 application {
-    mainClassName = "MainApplication"
+    mainClassName = "com.jereaa.MainApplication"
 }
 
 group 'com.jereaa'
-version '1.0-SNAPSHOT'
+version '1.0'
 
 sourceCompatibility = 1.8
 
@@ -31,5 +32,11 @@ test {
     useJUnitPlatform()
     testLogging {
         showStandardStreams = true
+    }
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'com.jereaa.MainApplication'
     }
 }

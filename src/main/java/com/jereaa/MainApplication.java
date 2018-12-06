@@ -1,3 +1,5 @@
+package com.jereaa;
+
 import org.json.JSONArray;
 import org.json.JSONObject;
 
@@ -21,6 +23,7 @@ public class MainApplication {
             return;
         }
 
+        System.out.println("Investigating IP, please wait a moment...");
         JSONObject result = ippi.investigateIp(ip);
         if (result != null) {
             printResult(result);
