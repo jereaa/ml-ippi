@@ -13,7 +13,7 @@ public class MainApplication {
             return;
         }
 
-        String ip = "185.165.168.229";
+        String ip = args[0];
         Ippi ippi = new Ippi();
 
         if (!ippi.isValidIp(ip)) {
